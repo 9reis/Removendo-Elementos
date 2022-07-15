@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Removendo</title>
+</head>
+<body>
+
+    <script>
+        const num = [1,2,3,4,5,6,7,8]
+
+        // Final
+        let ultimo = num.pop();
+        console.log('O ' + ultimo + ' foi removido')
+        console.log(num)
+
+        //Inicio
+
+        let final = num.shift()
+        console.log("O " + final + " foi removido")
+        console.log(num)
+
+        //meio
+
+        const meio = num.splice(2,1)
+        console.log('O ' + meio + ' foi removido')
+        console.log(num)
+
+
+        
+    </script>
+    
+</body>
+</html>
